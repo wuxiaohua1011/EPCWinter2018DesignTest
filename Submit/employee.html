@@ -1,0 +1,388 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Equal Pay Company</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- personal sheet -->
+  <link rel="stylesheet" type="text/css" href="styles1.css">
+
+  <link rel="shortcut icon" href="images/logo.ico">
+
+  <style>
+  #maintopkkhomepageanchor
+  {
+    outline:none;
+    text-decoration:none;
+  }
+  #maintopkkhomepageanchor:hover, #maintopkkhomepageanchor:focus {
+    color: #3bb9ff;
+  }
+  caption{
+    font-family:avenir-book
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td{
+  color:#989898;
+  text-align: left;
+  padding: 8px;
+  font-family: avenir-roman;
+  width = 8px;
+}
+
+
+th{
+  color:#989898;
+  text-align: left;
+  padding: 8px;
+  font-family: avenir-roman
+}
+
+#myProgress{
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar{
+  width: 1%;
+  height: 10px;
+  background-color: #3BB9FF;
+}
+
+
+.button {
+  background-color: #989898; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: avenir-book;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.enabled{
+  opacity: 1;
+  cursor: allowed;
+  background-color: #3BB9FF;
+}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <a id="backToTop"></a>
+  <div class="container">
+    <header class="text-center">
+      <div id="titleDiv" class="smallNav">
+        <a id="maintopkkhomepageanchor" href="index.html">
+          <img id="equalPayTitleLogo" src="logo.svg" alt="Equal Pay Company logo">
+          <h1 id="companyName">Equal Pay Company</h1>
+        </a>
+      </div>
+      <nav>
+
+        <div class="container-fluid">
+          <style>
+          #kkLoginLink
+          {
+            font-family: avenirL,Helvetica,sans-serif;
+          }
+          @media screen and (min-width: 768px){
+            #mainNavMenu.col-md-4
+            {
+              width: 44%!important;
+            }
+            #mainNavMenu.col-md-4 .navItem
+            {
+              padding-right: 13px!important;
+              padding-left: 13px!important;
+            }
+            #titleDiv.col-sm-4
+            {
+              width: 28%!important;
+              padding-right: 0px!important;
+              padding-left: 0px!important;
+            }
+          }
+          caption{
+            display: table-caption;
+            text-align: center;
+          }
+        </style>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul id="mainNavMenu" class="smallNav nav navbar-nav nav-center">
+            <li><a id="aboutLink" class="navItem" href="#aboutUsContentDiv">About</a></li>
+            <li><a id="certificationLink" class="navItem" href="#certificationsContentDiv">Certification</a></li>
+            <li><a id="experimentLink" class="navItem" href="#listContentDiv">Experiment</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav smallNav navbar-right">
+
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://www.facebook.com/EqualPayCo/"><i class="fa socLogo"></i></a></li>
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://twitter.com/equalpayco"><i class="fa socLogo"></i></a></li>
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://www.instagram.com/equalpayco"><i class="fa socLogo "></i></a></li>
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://www.linkedin.com/company/equalpayco"><i class="fa socLogo"></i></a></li>
+          </ul>
+          <ul>
+            <div id="myProgress">
+              <div id="myBar"></div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="col-md-12 col-sm-12">
+      <br><br><br><br><br><br><br><br><br><br>
+      <a id="abtUs"></a>
+      <table align = "center" width = "75%" id = 'questionaires1'>
+        <caption font-size = "500%" font-weight = "bold">
+          <div>
+            <img src="interview.png" alt="Interview" width = "20%">
+          </div>
+          <div>
+            <font size="5" face = "avenir-roman"> Interview </font></br>
+            <font size="2" face = "avenir-roman"> 3 of 3 </font>
+          </div>
+
+        </caption>
+        <tr id="row1">
+          <th id = "10">The interviewers and/or social cues in my interview made me feel I would belong here.</th>
+          <td id = "11" onclick='changeColor(11)' clicked = "false">Never</td>
+          <td id = "12" onclick='changeColor(12)' clicked = "false">Seldom</td>
+          <td id = "13" onclick='changeColor(13)' clicked = "false">About half the time</td>
+          <td id = "14" onclick='changeColor(14)'>Usually</td>
+          <td id = "15" onclick='changeColor(15)'>Always</td>
+        </tr>
+        <tr id="row2">
+          <th id = "20">The interview circumstances felt stacked against me.</th>
+          <td id = "21" onclick='changeColor(21)'>Never</td>
+          <td id = "22" onclick='changeColor(22)'>Seldom</td>
+          <td id = "23" onclick='changeColor(23)'>About half the time</td>
+          <td id = "24" onclick='changeColor(24)'>Usually</td>
+          <td id = "25" onclick='changeColor(25)'>Always</td>
+        </tr>
+        <tr id="row3">
+          <th id = "30">I observed actions intended to mitigate and successfully mitigate any x25 bias dynamics.</th>
+          <td id = "31" onclick='changeColor(31)'>Never</td>
+          <td id = "32" onclick='changeColor(32)'>Seldom</td>
+          <td id = "33" onclick='changeColor(33)'>About half the time</td>
+          <td id = "34" onclick='changeColor(34)'>Usually</td>
+          <td id = "35" onclick='changeColor(35)'>Always</td>
+        </tr>
+
+        <tr>
+          <th></th>
+          <th colspan="5"><i>Select Applicable</i></th>
+        </tr>
+
+        <tr id="row4">
+          <th>I was interviewed...</th>
+          <td id = "41" onclick='changeColor(41)'>individually</td>
+          <td id = "42" onclick='changeColor(42)'>in the company of fellow candidates.</td>
+          <td id = "43" onclick='changeColor(43)'>in the company of potential teammates.</td>
+        </tr>
+      </table>
+      <div align = "right">
+        <form action = "employee.php" method="post">
+          <button type = "button" name = "submit" id = "complete_button" class="button disabled mr-0 ml-auto" onclick="uploadData()">Complete</button>
+        </form>
+      </div>
+
+    </section>
+
+  </div>
+  <footer>
+    <div id="footerDiv">
+      <div>
+        <div id="footerLeftDiv" class="col-md-4 col-sm-12">
+          <div id="sloganDiv">
+            <div id="equalPayFooterLogo"><img src="logo.svg" alt=""></div>
+            <span id="equallySlogan">#EquallyValuedEquallyRewarded</span>
+          </div>
+        </div>
+        <div id="footerMiddleDiv" class="col-md-4 col-sm-12">
+          <div id="footerNav">
+            <a class="footerNavItem" href="executiveteam.html">PEOPLE</a>
+            <a class="footerNavItem" href="https://www.facebook.com/EqualPayCo/">NEWS</a>
+          </div>
+        </div>
+        <div id="footerRightDiv" class="col-md-4 col-sm-12">
+          <div id="footerSoc">
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://www.facebook.com/EqualPayCo/"><i class="fa footerSocLogo"></i></a></li>
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://twitter.com/equalpayco"><i class="fa footerSocLogo"></i></a></li>
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://www.instagram.com/equalpayco"><i class="fa footerSocLogo "></i></a></li>
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/equalpayco"><i class="fa footerSocLogo"></i></a></li>
+          </div>
+        </div>
+
+      </div>
+      <div id="rights" class="col-md-12">®2017 Equal Pay Company &nbsp; All rights reserved</div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src="script1.js"></script>
+</body>
+</html>
+
+<script language=javascript>
+function find_clicked_single(row_num){
+  var table = document.getElementById("questionaires1");
+  for(var col_index = 1; col_index < table.rows[row_num].cells.length; col_index++){
+    if(table.rows[row_num].cells[col_index].getAttribute('clicked') == 'true'){
+      return col_index;
+    }
+  }
+}
+function find_clicked_multiple(row_num){
+  var table = document.getElementById("questionaires1");
+  var clicked_indexes = [];
+  for(var col_index = 1; col_index < table.rows[row_num].cells.length; col_index++){
+    if(table.rows[row_num].cells[col_index].getAttribute('clicked') == 'true'){
+      clicked_indexes.push(col_index);
+    }
+  }
+  return clicked_indexes;
+}
+function gatherData(){
+  var table = document.getElementById("questionaires1");
+  var ans = [];
+  for(var row_index = 0; row_index < table.rows.length; row_index ++){
+    var q_num = row_index;
+    var prefix = "q" + q_num + "-";
+    var postfix = "*";
+    if(row_index != 3){
+      if(row_index == 4){
+        ans.push(prefix+find_clicked_multiple(row_index));
+      }
+      else{
+        ans.push(prefix+find_clicked_single(row_index)+ postfix);
+      }
+    }
+  }
+  return ans;
+}
+function uploadData(){
+  if(checkComplete() == 4){
+    var data = gatherData().toString();
+    post_to_php(data);
+    redirect();
+  }
+  return false;
+}
+function redirect(){
+  window.location = "data_entry_dashboard.html";
+}
+function post_to_php(str) {
+
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    /*
+    if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("txtHint").innerHTML = this.responseText;
+  }
+  */
+};
+xmlhttp.open("GET", "php_submit_employee.php?q=" + str, true);
+xmlhttp.send();
+
+}
+
+function checkComplete(){
+  var table = document.getElementById("questionaires1");
+  var activate_complete_button = true;
+  var row_filled = 0;
+  for(var row_index = 0; row_index < table.rows.length; row_index ++){
+    if(row_index != 3){
+      var col_filled = 0;
+      for(var col_index = 1; col_index < table.rows[row_index].cells.length; col_index++){
+        if(table.rows[row_index].cells[col_index].getAttribute('clicked') == 'true'){
+          col_filled = col_filled + 1;
+        }
+      }
+      if(col_filled == 0){
+        activate_complete_button = false;
+      }
+      else{
+        row_filled = row_filled+1;
+      }
+    }
+  }
+  if(activate_complete_button){
+    document.getElementById('complete_button').setAttribute('class',"button enabled mr-0 ml-auto");
+  }
+  else{
+    document.getElementById('complete_button').setAttribute('class',"button disabled mr-0 ml-auto");
+  }
+  return row_filled;
+}
+function changeColor(param){
+  var row_id = "row"+ Math.floor(param/10);
+  var row= document.getElementById(row_id);
+  var question_id = Math.floor(param/10) * 10;
+  var old_color = "#989898";
+  var new_color = "#1F2036";
+  var user_choice = document.getElementById(param);
+  var question = document.getElementById(question_id);
+  var current_color = user_choice.style.color
+
+  if(row_id != "row4"){
+    sameColor(Math.floor(param/10)-1); // html table is index from 0
+  }
+
+  if (current_color == "" || current_color == 'rgb(152, 152, 152)'){
+    user_choice.style.color = new_color;
+    user_choice.setAttribute('clicked','true');
+  }
+  else{
+    user_choice.style.color = old_color;
+    user_choice.setAttribute('clicked','false');
+  }
+  moveProgressBar(checkComplete(),4);
+}
+function sameColor(row_num){
+  for(var i = 1; i < document.getElementById("questionaires1").rows[row_num].cells.length; i++){
+    document.getElementById("questionaires1").rows[row_num].cells[i].style.color= "#989898";
+    document.getElementById("questionaires1").rows[row_num].cells[i].setAttribute('clicked','false');
+  }
+}
+function moveProgressBar(steps_done, all_steps){
+  var elem = document.getElementById("myBar");
+  var interval = 100 / all_steps;
+  var width = Math.round((steps_done - 1) * interval) + 1;
+  var final_width = Math.round(steps_done * interval);
+  var controller = setInterval(moveFrame, 10);
+  function moveFrame(){
+    if(width >= final_width){
+      clearInterval(controller);
+    }
+    else{
+      width++;
+      elem.style.width = width + '%';
+    }
+  }
+}
+</script>

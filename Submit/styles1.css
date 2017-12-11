@@ -1,0 +1,1050 @@
+@font-face {
+    font-family: avenirR;
+    src: url(https://equalpay.co/fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+    font-family: avenirL;
+    src: url(https://equalpay.co/fonts/AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: avenirB;
+    src: url(https://equalpay.co/fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: marc;
+    src: url(https://equalpay.co/fonts/MarcellusSC-Regular.ttf);
+}
+
+
+
+
+
+
+/*scrolled header*/
+
+ul.navbar-right.scrolled{
+	margin-right: 2vw;
+}
+
+#titleDiv.scrolled{
+
+	padding-top:2vh;
+	display: inline-block;
+    float: left;
+	
+	/*transition: 0.5s all ease;*/
+}
+
+.scrolled #companyName{
+	font-size: 2vw;
+	
+	/*transition: 0.5s all ease;	*/
+}
+
+#mainNavMenu.scrolled{
+	padding-left: 0;
+	
+	/*transition: 0.5s all ease;	*/
+}
+
+.navbar-right.scrolled li{
+	font-size: 18px;
+	
+	/*transition: 0.5s all ease;	*/
+}
+
+
+
+
+
+
+
+@media (min-width: 768px){
+
+/*	nav{
+	max-height: 11vh;
+
+	}
+
+	.navbar-nav>li>a {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+	}*/
+
+}
+
+
+.navbar-toggle{
+	padding: 0px 10px;
+}
+
+
+#discoverImg{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+
+#titleDiv{
+
+	padding-top: 35px;
+
+	/*padding-top: 5vh;*/
+	margin: 0 auto 0 auto;
+	transition: 0.5s all ease;
+}
+
+#mainNavMenu.navbar-nav{
+	margin: 0 auto;
+}
+
+.navbar-right li{
+	font-size: 2vw;
+	transition: 0.5s all ease;	
+}
+
+#companyName{
+	font-family: marc,Helvetica, sans-serif;
+	display: inline-block;
+	margin: 0 0 0 1vw;
+    font-size: 3vw;
+    vertical-align: middle;
+    transition: 0.5s all ease;	
+}
+
+#equalPayTitleLogo{
+
+	margin: auto 0 auto 0;
+	width:3vw;
+	vertical-align: middle;
+}
+
+#firstSegment{
+	/*margin-top: 133px;*/
+	padding:0;
+	color: white;
+	text-align: center;
+
+}
+
+#imageHeader{
+	position: absolute;
+	width: 100%;
+	top:46%;
+	text-align: center;
+	font-size: 1.20em;
+	font-family: avenirL, Helvetica,sans-serif;
+}
+
+#imageHeader p{
+	color:whitesmoke;
+}
+
+#learnMoreBtnA{
+	margin-top: 5px;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px 30px;
+	/*border: 1px solid #cccccc;*/
+}
+
+#learnMoreBtnA{
+	text-decoration: none;
+	color:white;
+	outline: none;
+}
+
+#firstSegment #imgBtn{
+	position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    bottom: -22px;
+    z-index: 3;
+    padding: 0;
+}
+
+#imgBtn>a{
+	padding: 0;
+}
+
+@media screen and (min-width: 768px){
+	.empblock img
+	{
+		float: left;
+		margin-right: 90px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px){
+	#mainNavMenu
+	{
+		font-size: 1.5vw;
+	}
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+	#mainNavMenu
+	{
+		font-size: 1.3vw;
+	}
+	.h1, h1
+	{
+		font-size: 2.7vw;
+	}
+	.container
+	{
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width: 1921px){
+	#mainNavMenu
+	{
+		font-size: 1.1vw;
+	}
+	.h1, h1
+	{
+		font-size: 2.3vw;
+	}
+	.container
+	{
+		width: 80vw;
+	}
+}
+
+.container
+{
+	max-width: 1800px;
+}
+
+@media screen and (max-width: 767px){
+	
+
+	ul.navbar-right.smallNav{
+	margin-right: 2vw;
+	}
+
+	#titleDiv.smallNav{
+
+		padding-top:0.8vh;
+		padding-left: 2vw;
+		display: inline-block;
+	    float: left;
+		
+		/*transition: 0.5s all ease;*/
+	}
+
+	.smallNav #companyName{
+		font-size: 2vw;
+		
+		/*transition: 0.5s all ease;	*/
+	}
+
+	.navbar-toggle {
+    	padding: 0px 0px;
+	}
+
+	
+	.navbar-toggle .icon-bar {
+	    width: 13px;
+	    height: 1px;
+	}
+
+
+
+	#mainNavMenu.smallNav{
+		padding-left: 0;
+		padding-right: 0;
+		
+		/*transition: 0.5s all ease;	*/
+	}
+
+	.navbar-right.smallNav li{
+		font-size: 18px;
+		
+		/*transition: 0.5s all ease;	*/
+	}
+
+
+	#imageHeader{
+		top: 18%;
+	}
+
+	#imageHeader>h1,#certificationsContentDiv>h2,#listContentDiv>h2,#goPlatinumContentDiv>h2{
+		font-size: 6vw;
+	}
+	#imageHeader>p{
+		font-size: 3vw;
+	}
+	
+	#certifications #certificationsContentDiv p, #list #listContentDiv p,#goPlatinum #goPlatinumContentDiv p{
+		font-size: 4.2vw;
+	}	
+
+
+	#learnMoreBtnA{
+		padding: 1vw 1vw;
+		font-size: 2vw;
+	}
+
+	#firstSegment #imgBtn{
+		bottom: -3.1vw;
+	}
+
+	#imgBtn>a>img{
+		height: 7vw;
+    	width: 5vw;
+	}
+
+
+
+	#aboutUs h2{
+		font-size: 6vw;
+	}
+
+	span#abtUsBig{
+		font-size: 4.2vw;
+	}
+
+	span#abtUsSm{
+		font-size: 3.2vw;
+	}
+
+	#abtUsSm::before{
+		content: "\A";
+  		white-space: pre;
+	}
+
+
+	.enterpriseLogo{
+		width: 100%;
+		height: 100% !important;
+	}
+
+	input#emailBox{
+		
+		padding-top: 28px;
+		margin-right: 0;
+	}
+
+	input#nameBox{
+		
+		margin-left: 0;
+	}
+
+
+	.socLogo{
+		display: none;
+	}
+	.socLogoA {
+		display: none !important;
+	}
+
+	input#messageBox {
+	    padding-top: 28px;
+	    width: 100%;
+		
+	}
+
+	input#getStartedBtn {
+	    padding: 2vw 3vw;
+	    font-size: 3vw;
+	}
+
+
+	a.footerNavItem {
+    
+	    padding: 2vw;
+	    font-size: 3vw;
+
+	}
+
+	.footerSocLi a{
+		padding:0;
+	}
+
+	.footerSocLi a i{
+		padding:1vw;
+	}
+
+	.footerSocLi i{
+		font-size: 4vw;	
+	}
+	
+
+
+
+
+	div#rights{
+		font-size: 3vw;
+
+	}
+
+	form > div.col-md-12 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#equalPayFooterLogo > img{
+		height: 25px;
+    	width: 25px;
+	}
+
+
+	input, #burgerButton {
+	    -webkit-border-radius:0; 
+	    border-radius:0;
+	}
+
+}
+
+@media only screen and (width : 1024px) and (height : 1366px) {
+
+	#footerRightDiv{
+		width: 26%;
+	}
+
+	#footerMiddleDiv{
+		padding-right: 0;
+	    padding-left: 0;
+	    width: 39%;
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 768px){
+	/*#mainNavMenu{
+		padding-left: 18vw;
+	}*/
+}
+
+
+
+#aboutLink,#certificationLink,#experimentLink{
+	font-family: avenirL,Helvetica,sans-serif;
+}
+
+/*about us section*/
+
+/*
+#aboutUs:before{
+	content: "";
+	clear:both;
+}*/
+
+#aboutUs{
+	/*position: relative;*/
+	background-color: white;
+	text-align: center;
+}
+
+#aboutUs > div{
+	/*position: relative;*/
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+#aboutUs h2 {
+
+	margin: 0vw auto 1vw auto;
+    display: inline-block;
+    font-family: avenirR,Helvetica,sans-serif;
+    color:#1F2036;
+}
+
+
+#aboutUs p{
+	max-width: 100%;
+	margin: 2vw 0;
+	font-family: avenirR,Helvetica,sans-serif;
+	font-size: 1.5em;
+	color:#1F2036;
+}
+
+#stepsDiscover img,#stepsBuild img, #stepsShine img{
+	max-width: 100%;
+	border-radius: 5px 5px 0px 0px;
+
+}
+
+#stepsDiscover,#stepsBuild, #stepsShine{
+	box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+#aboutUsContentDiv{
+	display: inline-block;
+	padding-top: 6vw;
+	padding-bottom:6vw;
+}
+
+#stepsBanner figcaption{
+	padding:15px 10px;
+	font-family: avenirR,Helvetica,sans-serif;
+    color:#1F2036;
+
+}
+
+.stepsImageDiv{
+	padding-top:10px;
+	padding-bottom: 10px; 
+}
+
+
+/*certifications section*/
+
+#certifications{
+
+	background-color: #1F2036;
+	text-align: center;
+}
+
+#certifications > div{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+#certifications h2 {
+
+	margin: 0vw auto 1vw auto;
+    display: inline-block;
+    font-family: avenirR,Helvetica,sans-serif;
+    color:white;
+}
+
+
+#certifications p{
+	max-width: 100%;
+	margin: 2vw 0 3vw 0;
+	font-family: avenirR,Helvetica,sans-serif;
+	font-size: 1.5em;
+	color:white;
+}
+
+#silver img,#gold img, #platinum img{
+	max-width: 100%;
+
+
+}
+
+#certificationsContentDiv{
+	display: inline-block;
+	padding-top: 6vw;
+	padding-bottom:6vw;
+}
+
+#medalsBanner figcaption{
+	padding: 0vh 2vw;
+    font-family: avenirL,Helvetica,sans-serif;
+    color: white;
+    margin-top: 6vh;
+}
+
+
+
+/*The List section*/
+
+
+
+
+
+
+#list{
+
+	background-color:white;
+	text-align: center;
+}
+
+#list > div{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+#list h2 {
+
+	margin: 0vw auto 1vw auto;
+    display: inline-block;
+    font-family: avenirR,Helvetica,sans-serif;
+    color:#1F2036;
+}
+
+
+#list p{
+	max-width: 100%;
+	margin: 2vw 0 8vw 0;
+	font-family: avenirR,Helvetica,sans-serif;
+	font-size: 1.5em;
+	color:#1F2036;
+}
+
+
+#listContentDiv{
+	display: inline-block;
+	padding-top: 6vw;
+	padding-bottom:6vw;
+}
+
+/*#medalsBanner figcaption{
+	padding:15px 10px;
+	font-family: avenirL,Helvetica,sans-serif;
+    color:white;
+	margin-top: 6vw;
+}*/
+
+
+.enterpriseLogo > figure > img{
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.enterpriseLogo {
+	/*max-width: 100%;*/
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 768px){
+	#hyperloopLogo{
+		padding-top: 10px;
+	}
+
+	#mainNavMenu{
+		padding-left: 18vw;
+	}
+
+
+
+	nav{
+	max-height: 11vh;
+
+	}
+
+	.navbar-nav>li>a {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+	}
+
+
+	ul.navbar-right.scrolled{
+	margin-right: 2vw;
+	}
+
+	#titleDiv.scrolled{
+
+		padding-top: 13px;
+
+		display: inline-block;
+	    float: left;
+		transition: 0.5s all ease;
+	}
+
+	.scrolled #companyName{
+		font-size: 2vw;
+		transition: 0.5s all ease;	
+	}
+
+	#mainNavMenu.scrolled{
+		padding-left: 0;
+		transition: 0.5s all ease;	
+	}
+
+	.navbar-right.scrolled li{
+		font-size: 18px;
+		transition: 0.5s all ease;	
+	}
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:991px){
+	#imageHeader{
+		top: 37%
+	}
+
+	input#nameBox {
+	    margin-left: 42%;
+	    width: 45%;
+	}
+
+	input#emailBox {
+	    margin-right: 42%;
+	    width: 45%;
+	}
+
+	input#getStartedBtn {
+    	padding: 1vw 3vw;
+	}
+
+	#equalPayFooterLogo img{
+		height: 25px;
+    	width: 25px;
+	}
+
+	div#titleDiv {
+    	padding-top: 25px;
+	}
+}
+
+
+.row.firstRow{
+	margin-bottom: 25px;
+}
+
+#gridLogo{
+	height: 55px;
+}
+
+#microsoftLogo{
+	height: 70px;
+}
+
+#spacexLogo{
+	padding-top: 25px;
+}
+
+
+
+/*go platinum section*/
+
+
+
+#goPlatinum{
+
+	background-color:#eee;
+	text-align: center;
+}
+
+#goPlatinum > div{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+#goPlatinum h2 {
+
+	margin: 0vw auto 1vw auto;
+    display: inline-block;
+    font-family: avenirR,Helvetica,sans-serif;
+    color:#1F2036;
+}
+
+
+#goPlatinum p{
+	max-width: 100%;
+	margin: 2vw 0 8vw 0;
+	font-family: avenirR,Helvetica,sans-serif;
+	font-size: 1.5em;
+	color:#1F2036;
+}
+
+
+#goPlatinumContentDiv{
+	display: inline-block;
+	padding-top: 6vw;
+	padding-bottom:6vw;
+}
+
+
+
+
+
+
+.borderless{
+	max-width: 100%;
+	background-color: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #989898;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
+
+}
+
+.borderless:focus{
+	outline: none;
+}
+
+#nameBox{
+	margin-left: 40%;
+    width: 50%;
+}
+
+#messageBox{
+	width: 61%;
+
+}
+
+#emailBox{
+	margin-right: 40%;
+    width: 50%;
+}
+
+}
+
+#formDiv .col-md-6{
+	padding: 0px 45px;
+}
+
+form > div{
+	margin-bottom: 4vw;
+}
+
+
+form > .col-md-12{
+
+	margin-top: 4vw;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+
+
+#getStartedBtn{
+	margin-top: 5px;
+	background-color: #3BB9FF;
+	color:white;
+	border-radius: 5px;
+	padding: 15px 40px;
+	border: 0;
+	font-family: avenirL,Helvetica,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.icon-bar{
+	color:black;
+	background-color: #1F2036;
+}
+
+.navItem{
+	text-align: center;
+}
+
+.navbar-right li>a{
+	padding:1vw 1vw;
+}
+.navbar-nav {
+	float:none;
+    text-align: center;
+    display:inline-block;
+    margin: 1vw auto;
+}
+
+.container{
+	padding-left: 0;
+	padding-right: 0;
+	background-color: white;
+}
+
+.socLogo{
+
+	
+	vertical-align: middle;
+}
+
+
+
+.boldFont{
+	font-weight: bold;
+}
+
+.boldCapFont{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.fa{
+	color:#1F2036;
+
+}
+
+
+a{
+	color:#1F2036;
+	padding:15px;
+}
+
+body{
+	background-color: #1F2036;
+ /*
+  background: -webkit-linear-gradient(90deg, #3BB9FF 10%, #EAECC6 90%);
+  background:    -moz-linear-gradient(90deg, #3BB9FF 10%, #EAECC6 90%);
+  background:     -ms-linear-gradient(90deg, #3BB9FF 10%, #EAECC6 90%);
+  background:      -o-linear-gradient(90deg, #3BB9FF 10%, #EAECC6 90%);
+  background:         linear-gradient(90deg, #3BB9FF 10%, #EAECC6 90%); */
+
+}
+
+header{
+	background-color: white;
+	position: fixed;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    /*justify-content: center;*/
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+}
+
+section{
+	display:block;
+}
+
+#abtUs,#cert,#exp,#bttm,#goPlat,#backToTop{
+	padding: 0;
+	margin: 0;
+}
+
+/*footer section*/
+
+footer{
+	width: 100%;
+	background-color: #1F2036;
+	color:white;
+	font-family: avenirL,Helvetica,sans-serif;
+
+}
+
+.footerSocLogo{
+	color:white;
+	font-size: 2vw;
+}
+div#footerSoc{
+    padding-left: 3vw;
+}
+
+.footerNavItem{
+	color: white;
+
+}
+
+.footerSocLi{
+	display: inline-block;
+	list-style: none;
+}
+
+#sloganDiv,#footerNav,#footerSoc{
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+	text-align: center;
+}
+
+@media only screen and (min-width: 992px){
+
+	#footerLeftDiv{
+		padding-left: 120px;
+	}
+}
+
+
+
+/*@media only screen and (min-width:1366px)
+{
+  #equalPayFooterLogo{
+    position: absolute;
+      bottom: 40px;
+      left: 110px;
+    }
+}*/
+
+@media only screen and (min-width:992px){
+  #equalPayFooterLogo{
+    position: absolute;
+    bottom: 38%;
+    left: 20%;
+  }
+}
+
+@media only screen and (min-width:1250px){
+
+  #equalPayFooterLogo{
+    position: absolute;
+    bottom: 38%;
+    left: 25%;
+  }
+
+}
+
+#rights{
+	text-align: center;
+	margin-bottom: 2vw;
+}
+
+#equalPayFooterLogo{
+	display: inline-block;
+
+}
+
+#footerDiv{
+	display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#equallySlogan{
+	padding-left: 10px;
+}
+
+
+.doubleSpaced{
+	line-height: 2em;
+}
+
+
+header{
+	/*display: none;*/
+}
+
+
+.borderless::-webkit-input-placeholder {
+  font-family: 'avenirL', Helvetica, sans-serif;
+  color:#1F2036;
+}
+
+.borderless:-ms-input-placeholder {
+  font-family: 'avenirL', Helvetica, sans-serif;
+  color:#1F2036;
+}
+
+.borderless:-moz-placeholder {
+  font-family: 'avenirL', Helvetica, sans-serif;
+  color:#1F2036;
+}
+
+.borderless::-moz-placeholder {
+  font-family: 'avenirL', Helvetica, sans-serif;
+  color:#1F2036;
+}
+
+
+#abtUsBig{
+	font-size: 25px;
+}
+
+#abtUsSm{
+	font-size: 19px;	
+}

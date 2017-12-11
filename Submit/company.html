@@ -1,0 +1,347 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Equal Pay Company</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- personal sheet -->
+  <link rel="stylesheet" type="text/css" href="styles1.css">
+
+  <link rel="shortcut icon" href="images/logo.ico">
+
+  <style>
+  #maintopkkhomepageanchor
+  {
+    outline:none;
+    text-decoration:none;
+  }
+  #maintopkkhomepageanchor:hover, #maintopkkhomepageanchor:focus {
+    color: #3bb9ff;
+  }
+  caption{
+    font-family:avenir-book
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+td{
+  color:#989898;
+  text-align: left;
+  padding: 8px;
+  font-family: avenir-roman;
+  width = 8px;
+}
+
+
+th{
+  color:#989898;
+  text-align: left;
+  padding: 8px;
+  font-family: avenir-roman
+}
+
+#myProgress{
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar{
+  width: 1%;
+  height: 10px;
+  background-color: #3BB9FF;
+}
+
+
+.button {
+  background-color: #989898; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: avenir-book;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.enabled{
+  opacity: 1;
+  cursor: allowed;
+  background-color: #3BB9FF;
+}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <a id="backToTop"></a>
+  <div class="container">
+    <header class="text-center">
+      <div id="titleDiv" class="smallNav">
+        <a id="maintopkkhomepageanchor" href="index.html">
+          <img id="equalPayTitleLogo" src="logo.svg" alt="Equal Pay Company logo">
+          <h1 id="companyName">Equal Pay Company</h1>
+        </a>
+      </div>
+      <nav>
+
+        <div class="container-fluid">
+          <style>
+          #kkLoginLink
+          {
+            font-family: avenirL,Helvetica,sans-serif;
+          }
+          @media screen and (min-width: 768px){
+            #mainNavMenu.col-md-4
+            {
+              width: 44%!important;
+            }
+            #mainNavMenu.col-md-4 .navItem
+            {
+              padding-right: 13px!important;
+              padding-left: 13px!important;
+            }
+            #titleDiv.col-sm-4
+            {
+              width: 28%!important;
+              padding-right: 0px!important;
+              padding-left: 0px!important;
+            }
+          }
+          caption{
+            display: table-caption;
+            text-align: center;
+          }
+        </style>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul id="mainNavMenu" class="smallNav nav navbar-nav nav-center">
+            <li><a id="aboutLink" class="navItem" href="#aboutUsContentDiv">About</a></li>
+            <li><a id="certificationLink" class="navItem" href="#certificationsContentDiv">Certification</a></li>
+            <li><a id="experimentLink" class="navItem" href="#listContentDiv">Experiment</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav smallNav navbar-right">
+
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://www.facebook.com/EqualPayCo/"><i class="fa socLogo"></i></a></li>
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://twitter.com/equalpayco"><i class="fa socLogo"></i></a></li>
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://www.instagram.com/equalpayco"><i class="fa socLogo "></i></a></li>
+            <li><a class="socLogoA" target="_blank" rel="noopener" href="https://www.linkedin.com/company/equalpayco"><i class="fa socLogo"></i></a></li>
+          </ul>
+          <ul>
+            <div id="myProgress">
+              <div id="myBar"></div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="col-md-12 col-sm-12">
+      <br><br><br><br><br><br><br><br><br><br>
+      <a id="abtUs"></a>
+      <table align = "center" width = "75%" id = 'questionaires2'>
+        <caption font-size = "500%" font-weight = "bold">
+          <div>
+            <img src="interview.png" alt="Interview" width = "20%">
+          </div>
+          <div class = "center">
+            <font size="5" face = "avenir-roman"> Interview </font></br>
+            <font size="2" face = "avenir-roman"> 3 of 3 </font>
+          </div>
+        </caption>
+        <tr>
+          <th></th>
+          <th colspan="5"><i>Select Applicable</i></th>
+        </tr>
+
+        <tr id="row1">
+          <th>I was interviewed...</th>
+          <td id = "11" onclick="changeColor(11)">individually</td>
+          <td id = "12" onclick="changeColor(12)">in the company of fellow candidates.</td>
+          <td id = "13" onclick="changeColor(13)">in the company of potential teammates.</td>
+        </tr>
+        <tr id = "row2">
+          <th>Interviewer(s) may self “tap out” if the interviewer was not able to effectively
+evaluate the candidate for the full duration of the interview. If they are/have the/any deciding authority, the proxy vote is pre-assigned per rules.
+          </th>
+          <td id = "21" onclick="changeColor(21)"> Yes </td>
+          <td id = "22" onclick="changeColor(22)"> No </td>
+        </tr>
+      </table>
+      <div align = "right">
+        <form action = "company.php" method="post">
+          <button type = "button" name = "submit" id = "complete_button" class="button disabled mr-0 ml-auto" onclick="uploadData()">Complete</button>
+        </form>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <div id="footerDiv">
+      <div>
+        <div id="footerLeftDiv" class="col-md-4 col-sm-12">
+          <div id="sloganDiv">
+            <div id="equalPayFooterLogo"><img src="logo.svg" alt=""></div>
+            <span id="equallySlogan">#EquallyValuedEquallyRewarded</span>
+          </div>
+        </div>
+        <div id="footerMiddleDiv" class="col-md-4 col-sm-12">
+          <div id="footerNav">
+            <a class="footerNavItem" href="executiveteam.html">PEOPLE</a>
+            <a class="footerNavItem" href="https://www.facebook.com/EqualPayCo/">NEWS</a>
+          </div>
+        </div>
+        <div id="footerRightDiv" class="col-md-4 col-sm-12">
+          <div id="footerSoc">
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://www.facebook.com/EqualPayCo/"><i class="fa footerSocLogo"></i></a></li>
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://twitter.com/equalpayco"><i class="fa footerSocLogo"></i></a></li>
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://www.instagram.com/equalpayco"><i class="fa footerSocLogo "></i></a></li>
+            <li class="footerSocLi"><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/equalpayco"><i class="fa footerSocLogo"></i></a></li>
+          </div>
+        </div>
+
+      </div>
+      <div id="rights" class="col-md-12">®2017 Equal Pay Company &nbsp; All rights reserved</div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src="script1.js"></script>
+</body>
+</html>
+<script language=javascript>
+    function checkComplete(){
+      var table = document.getElementById("questionaires2");
+      var activate_complete_button = true;
+      var row_filled = 0;
+
+      if(table.rows[1].cells[1].getAttribute('clicked') == 'true' || table.rows[1].cells[2].getAttribute('clicked') == 'true' || table.rows[1].cells[3].getAttribute('clicked') == 'true'){
+        row_filled = row_filled +1;
+      }
+      if(table.rows[2].cells[1].getAttribute('clicked') == 'true' || table.rows[2].cells[2].getAttribute('clicked') == 'true'){
+        row_filled = row_filled +1;
+      }
+      if(row_filled == 2){
+        document.getElementById('complete_button').setAttribute('class',"button enabled mr-0 ml-auto");
+      }
+      else{
+        document.getElementById('complete_button').setAttribute('class',"button disabled mr-0 ml-auto");
+      }
+      return row_filled;
+    }
+
+    function uploadData(){
+      if(checkComplete() == 2){
+        var data = gatherData().toString();
+        post_to_php(data);
+        redirect();
+      }
+      return false;
+    }
+    function redirect(){
+      window.location = "data_entry_dashboard.html";
+    }
+    function post_to_php(str) {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("debugging").innerHTML = this.responseText;
+        }
+      };
+      xmlhttp.open("GET", "php_submit_company.php?q=" + str, true);
+      xmlhttp.send();
+
+    }
+    function find_clicked_multiple(row_num){
+      var table = document.getElementById("questionaires2");
+      var clicked_indexes = [];
+      for(var col_index = 1; col_index < table.rows[row_num].cells.length; col_index++){
+        if(table.rows[row_num].cells[col_index].getAttribute('clicked') == 'true'){
+          clicked_indexes.push(col_index);
+        }
+      }
+      return clicked_indexes;
+    }
+    function find_clicked_single(row_num){
+      var table = document.getElementById("questionaires2");
+      for(var col_index = 1; col_index < table.rows[row_num].cells.length; col_index++){
+        if(table.rows[row_num].cells[col_index].getAttribute('clicked') == 'true'){
+          return col_index;
+        }
+      }
+    }
+    function gatherData(){
+
+      var ans = [];
+      var prefix = "q" + 1 + "-";
+      var postfix = "*";
+      ans.push(prefix+find_clicked_multiple(1) + postfix);
+      var prefix = "q" + 2 + "-";
+      ans.push(prefix+find_clicked_single(2));
+      return ans;
+    }
+
+    function changeColor(param){
+      var row_id = "row"+ Math.floor(param/10);
+      var row= document.getElementById(row_id);
+      var question_id = Math.floor(param/10) * 10;
+      var old_color = "#989898";
+      var new_color = "#1F2036";
+      var user_choice = document.getElementById(param);
+      var question = document.getElementById(question_id);
+      var current_color = user_choice.style.color
+      if(row_id == "row2"){
+        sameColor();
+      }
+      if (current_color == "" || current_color == 'rgb(152, 152, 152)'){
+        user_choice.style.color = new_color;
+        user_choice.setAttribute('clicked','true');
+      }
+      else{
+        user_choice.style.color = old_color;
+        user_choice.setAttribute('clicked','false');
+      }
+      moveProgressBar(checkComplete(),2);
+    }
+
+    function sameColor(){
+      document.getElementById("questionaires2").rows[2].cells[1].style.color= "#989898";
+      document.getElementById("questionaires2").rows[2].cells[1].setAttribute('clicked','false');
+      document.getElementById("questionaires2").rows[2].cells[2].style.color= "#989898";
+      document.getElementById("questionaires2").rows[2].cells[2].setAttribute('clicked','false');
+    }
+    function moveProgressBar(steps_done, all_steps){
+      var elem = document.getElementById("myBar");
+      var interval = 100 / all_steps;
+      var width = Math.round((steps_done - 1) * interval) + 1;
+      var final_width = Math.round(steps_done * interval);
+      var controller = setInterval(moveFrame, 10);
+      function moveFrame(){
+        if(width >= final_width){
+          clearInterval(controller);
+        }
+        else{
+          width++;
+          elem.style.width = width + '%';
+        }
+      }
+    }
+</script>
